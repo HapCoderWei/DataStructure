@@ -1,0 +1,16 @@
+* Find a path in maze by backtracking algorithm
+** How to run this program
+Clone it, and run 'make' in your terminal.
+Then you will get a executable file named maze, run it in a terminal.
+You will see a promote to input the row and col to generate you maze, your input decides the maze's size.
+Then you can see the maze and one way to pass it.
+Have Fun!
+** How it runs
+*** Generate a maze
+This program uses the Union/Find Set to generate a maze, So the maze is always have one way to out.
+*** Find a pass
+I uses a backtrack method to traverse the maze, and then find a pass.
+*** Other datastructure
+I uses a Stack structure. Cause the C language has no library for stack, I implement it by myself. Which is the source file SeqStack.c
+** Notes
+The BFS source file didn't used at all. It just stay there by I want to write an another program through it. In this program, ignore it.

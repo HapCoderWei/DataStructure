@@ -5,7 +5,7 @@ void QSort(int r[], int low, int high)
 {
     int pos;
     if(low < high) {
-        /* Divide r[]] into two parts by r[low] */
+        /* Divide r[] into two parts by r[low] */
         pos = QPass(r, low, high);
         /* Recursion call QSort to sort child array */
         QSort(r, low, pos-1);
